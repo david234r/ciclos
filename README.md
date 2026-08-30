@@ -9,13 +9,24 @@ Este proyecto está enfocado en el aprendizaje y aplicación de ciclos, estructu
  - Personalización del README.md
  - Exposición explicando las preguntas teoricas y los codigos
  
+## Instrucciones para la ejecución del programa
+### Programa 1:
+Verifica que el compilador de Java esté instalado ejecutando en tu terminal:
+
+    javac -version
+
+---
+
+1. **Compilar el archivo fuente:**
+   ```bash
+   javac MenuPrincipal.java
+
+
 ## Equipo De Trabajo
 
  - **Juan Pablo Morales Parra**
- email: juan.moralesmel@upb.edu.co
  
  - **David Robinson Hernández**
- email: david.robinson@upb.edu.co 
 
 ## Fuentes 
  - https://stackedit.io/
