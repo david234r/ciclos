@@ -41,7 +41,17 @@ public class Juego {
                 intento = sc.nextInt();
 
                 if (intento == numeroSecreto) {
-                    System.out.println("¡Ganaste! El número era " + numeroSecreto);
+                    // Mostrar marco ASCII con el resultado del juego
+                    System.out.println("   _.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._");
+                    System.out.println(" ,'_.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._`.");
+                    System.out.println("( (                                                         ) )");
+                    System.out.println(" ) )               ¡FELICIDADES! HAS GANADO!               ( (");
+                    System.out.println("( (                                                         ) )");
+                    System.out.printf(" ) )             El número secreto era: %-18d( (\n", numeroSecreto);
+                    System.out.println("( (                                                         ) )");
+                    System.out.println("( (_.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._) )");
+                    System.out.println(" `._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._,'");
+
                     gano = true;
                 } else if (intento < numeroSecreto) {
                     System.out.println("Muy bajo, intenta de nuevo.");
@@ -70,11 +80,22 @@ public class Juego {
             }
         }
 
-        System.out.println("\n--- Tabla del " + numeroTabla + " ---");
+        // Mostrar la tabla de multiplicar dentro del cuadro pergamino ASCII
+        System.out.println("   _.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._");
+        System.out.println(" ,'_.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._`.");
+        System.out.println("( (                                                         ) )");
+        System.out.printf(" ) )                  TABLA DEL %-27d( (\n", numeroTabla);
+        System.out.println("( (                                                         ) )");
+        
         for (int i = 1; i <= 10; i++) {
-            System.out.println(numeroTabla + " x " + i + " = " + (numeroTabla * i));
+            String linea = String.format("%d x %d = %d", numeroTabla, i, (numeroTabla * i));
+            System.out.printf(" ) )                  %-37s( (\n", linea);
         }
+
+        System.out.println("( (                                                         ) )");
+        System.out.println("( (_.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._) )");
+        System.out.println(" `._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._,'");
 
         sc.close();
     }
-} 
+}
