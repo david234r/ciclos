@@ -8,6 +8,12 @@ Este proyecto está enfocado en el aprendizaje y aplicación de ciclos, estructu
  - Creación de un repositorio en GitHub
  - Personalización del README.md
  - Exposición explicando las preguntas teoricas y los codigos
+
+## Trabajo colaborativo y aportes del equipo
+
+- **David Robinson Hernández:** Creación del programa `Juego.java`, diseño e implementación de las decoraciones en arte ASCII, elaboración de la presentación y creación del repositorio en GitHub.
+- **Juan Pablo Morales Parra:** Desarrollo e implementación del programa `MenuPrincipal.java`, complementacion de las preguntas de teoria.
+
  
 ## Instrucciones para la ejecución del programa
 
@@ -24,7 +30,8 @@ Verifica que el compilador de Java esté instalado ejecutando en tu terminal:
    javac MenuPrincipal.java
 
 2. **Ejecutar el programa**
-    ```bash java MenuPrincipal
+    ```bash 
+    java MenuPrincipal
 
 ### Programa 2:
 
@@ -33,7 +40,8 @@ Verifica que el compilador de Java esté instalado ejecutando en tu terminal:
    javac Juego.java
 
 2. **Ejecutar el programa**
-    ```bash java Juego
+    ```bash 
+    java Juego
 
 
 ## Equipo De Trabajo
