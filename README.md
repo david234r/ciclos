@@ -10,16 +10,30 @@ Este proyecto está enfocado en el aprendizaje y aplicación de ciclos, estructu
  - Exposición explicando las preguntas teoricas y los codigos
  
 ## Instrucciones para la ejecución del programa
-### Programa 1:
+
 Verifica que el compilador de Java esté instalado ejecutando en tu terminal:
 
     javac -version
 
 ---
 
+### Programa 1:
+
 1. **Compilar el archivo fuente:**
    ```bash
    javac MenuPrincipal.java
+
+2. **Ejecutar el programa**
+    ```bash java MenuPrincipal
+
+### Programa 2:
+
+1. **Compilar el archivo fuente:**
+   ```bash
+   javac Juego.java
+
+2. **Ejecutar el programa**
+    ```bash java Juego
 
 
 ## Equipo De Trabajo
