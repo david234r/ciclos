@@ -6,8 +6,8 @@
 * **Tema:** Ciclos en Java y Control de Flujo
 
 ## Integrantes
-* **Estudiante 1:** David Robinson
-* **Estudiante 2:** Juan Pablo Morales Parra
+* David Robinson
+* Juan Pablo Morales Parra
 
 ---
 

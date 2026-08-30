@@ -7,17 +7,18 @@ public class MenuPrincipal {
         Scanner sc = new Scanner(System.in);
         int opcion = 0;
 
-        // El menú se repite hasta que el usuario elija la opción 5 (Salir)
         do {
-            System.out.println("\n=========================================");
-            System.out.println("          TALLER 3 - CODIGO 1");
-            System.out.println("=========================================");
-            System.out.println("1. Suma n-esimo termino de la serie de Fibonacci");
-            System.out.println("2. Calcular el n-esimo numero primo");
-            System.out.println("3. Calcular las raices de una ecuacion cuadratica");
-            System.out.println("4. Calcular el promedio de n numeros");
-            System.out.println("5. Salir");
-            System.out.println("=========================================");
+            System.out.println(".-=~=-.                                                                 .-=~=-.");
+            System.out.println("(__  _)-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-(__  _)");
+            System.out.println("( _ __)                                                                 ( _ __)");
+            System.out.println("(__  _)            1. Suma n-esimo termino de la serie de Fibonacci     (__  _)");
+            System.out.println("(_ ___)            2. Calcular el n-esimo numero primo                  (_ ___)");
+            System.out.println("(__  _)            3. Calcular las raices de una ecuacion cuadratica    (__  _)");
+            System.out.println("( _ __)            4. Calcular el promedio de n numeros                 ( _ __)");
+            System.out.println("(__  _)            5. Salir                                             (__  _)");
+            System.out.println("(_ ___)                                                                 (_ ___)");
+            System.out.println("(__  _)-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-(__  _)");
+            System.out.println("`-._.-'                                                                 `-._.-'");
 
             try {
                 System.out.print("Seleccione una opcion (1-5): ");
@@ -39,7 +40,7 @@ public class MenuPrincipal {
 
             } catch (InputMismatchException e) {
                 System.out.println("\nError: Debe ingresar un numero entero valido.");
-                sc.nextLine(); // Limpiar el buffer del Scanner
+                sc.nextLine(); 
             }
 
         } while (opcion != 5);
@@ -47,7 +48,6 @@ public class MenuPrincipal {
         sc.close();
     }
 
-    // 1. Suma de los primeros n terminos de la serie de Fibonacci
     public static void calcularFibonacci(Scanner sc) {
         System.out.print("\nIngrese la cantidad de terminos (n): ");
         int n = sc.nextInt();
@@ -71,15 +71,14 @@ public class MenuPrincipal {
         System.out.print("\nIngrese la posicion del numero primo que desea (n): ");
         int n = sc.nextInt();
 
-        int contador = 0;   // cuenta cuantos primos se han encontrado
-        int numero = 1;      // numero que se va a revisar
+        int contador = 0;   
+        int numero = 1;      
         int primoEncontrado = 0;
 
         while (contador < n) {
             numero++;
             boolean esPrimo = true;
 
-            // Se revisa si "numero" es divisible por algun valor entre 2 y numero-1
             for (int i = 2; i < numero; i++) {
                 if (numero % i == 0) {
                     esPrimo = false;
@@ -95,7 +94,6 @@ public class MenuPrincipal {
         System.out.println("El numero primo en la posicion " + n + " es: " + primoEncontrado);
     }
 
-    // 3. Raices de una ecuacion cuadratica (formula general)
     public static void calcularCuadratica(Scanner sc) {
         System.out.print("\nIngrese el valor de a: ");
         double a = sc.nextDouble();
@@ -124,7 +122,6 @@ public class MenuPrincipal {
         }
     }
 
-    // 4. Promedio de n numeros ingresados por el usuario
     public static void calcularPromedio(Scanner sc) {
         System.out.print("\nCuantos numeros desea promediar (n)?: ");
         int n = sc.nextInt();
