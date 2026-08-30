@@ -54,4 +54,5 @@ Verifica que el compilador de Java esté instalado ejecutando en tu terminal:
  - https://stackedit.io/
  - https://github.com/
  - https://xacarana.com/
- - 
+ - https://www.asciiart.eu/
+ - https://www.canva.com/
