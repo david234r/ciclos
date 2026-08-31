@@ -41,7 +41,7 @@ public class Juego {
                 intento = sc.nextInt();
 
                 if (intento == numeroSecreto) {
-                    // Mostrar marco ASCII con el resultado del juego
+                    
                     System.out.println("   _.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._");
                     System.out.println(" ,'_.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._`.");
                     System.out.println("( (                                                         ) )");
@@ -60,7 +60,7 @@ public class Juego {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Error: Entrada no válida. Ingresa solo números.");
-                sc.nextLine(); // Limpiar búfer
+                sc.nextLine(); 
             }
         }
 
@@ -80,7 +80,6 @@ public class Juego {
             }
         }
 
-        // Mostrar la tabla de multiplicar dentro del cuadro pergamino ASCII
         System.out.println("   _.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._");
         System.out.println(" ,'_.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._.-._`.");
         System.out.println("( (                                                         ) )");
