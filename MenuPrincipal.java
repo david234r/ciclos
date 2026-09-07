@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-//*Programa echo por Juan Pablo Morales y Dabid Robinson Hernandez*//
-=======
-//*Programa echo por Juan PabloMorales y Dabid Robinson Hernandez*//
->>>>>>> 208907769ee8af1b30ad67b6017c6d6a48a63f07
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
